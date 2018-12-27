@@ -5,5 +5,5 @@ from setuptools import setup
 setup(name="stockchart",version='0.1',description='A minimalist program for\
       plotting candlestick stock charts',\
       author='Xiaojian Deng',author_email="xjd001@gmail.com",license='MIT',\
-      packages=['stockchart'],
+      packages=['stockchart'],install_requires=['numpy','pandas'],
       url="https://github.com/xjdeng/stockchart",zip_safe=False)
